@@ -47,7 +47,7 @@ end
 
 def add_s(array)
   array.each_with_index do |word, index|
-    if index != 1 #if the index value is 1 (second element in the array... ignore it! Otherwise append an 's' to the string)
+    if index != 1 #if the index value is 1 (second element in the array)... ignore it! Otherwise append an 's' to the string)
       word << "s"
     end
   end
