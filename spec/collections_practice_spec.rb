@@ -67,3 +67,60 @@ describe 'collections practice' do
     end
   end
 end
+
+array = [7,8,6,9,3,1,2]
+ def sort_array_asc (array)
+    array.sort do |a,b| 
+ a <=> b 
+end
+end
+
+array = [8,10,11,4,5]
+def sort_array_desc (array)
+  array.sort.reverse do |a,b| 
+    a <=> b
+  end
+end
+
+ array = [8,10,11,4,5]
+ def sort_array_char_count (array)
+   array.sort do |a,b|
+     a.length <=> b.length 
+   end
+ end
+ 
+def swap_elements_from_to (array, index, destination_index)
+  swap_elements_from_to(["a", "b", "c"],0,2). sort do |a,b|
+    a <=> b 
+  end
+end
+
+array = [4,2,6,4,9]
+def reverse_array (array)
+  array.sort.reverse do |a,b| 
+    a <=> b
+  end
+end
+
+array = ["naina", "renu", "jassi"]
+def kesha_maker (array) 
+  change = []
+  array.each do |name| 
+    change << name.size-1 $
+  end
+end
+
+array = [1,3,5,7]
+def sum_array (array)
+  array.inject (...) do |i| 
+end
+end
+
+
+
+  
+  
+
+
+
+  
